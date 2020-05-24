@@ -23,6 +23,7 @@ class firstDegreeEquation{
     public int getB(){
         return this.b;
     }
+    //Nhập vào phương trình
     public void input(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập vào a: ");
@@ -31,6 +32,7 @@ class firstDegreeEquation{
         this.b = sc.nextInt();
         sc.close();
     }
+    // Giaỉ phương trình bậc nhất
     public void solve(){
         double result;
         if(a!=0){
